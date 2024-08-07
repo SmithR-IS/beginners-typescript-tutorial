@@ -1,5 +1,7 @@
 import { expect, it } from "vitest";
 
+// Add the required type annotations below to both 'a' and 'b' to make the test pass
+
 export const addTwoNumbers = (a, b) => {
   return a + b;
 };

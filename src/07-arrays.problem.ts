@@ -1,3 +1,5 @@
+// Correct the interfaces such that posts is accepted
+
 interface User {
   id: number;
   firstName: string;

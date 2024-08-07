@@ -1,5 +1,7 @@
 import { expect, it } from "vitest";
 
+// Update the parameters to allow 'last' to be optional
+
 export const getName = (first: string, last: string) => {
   if (last) {
     return `${first} ${last}`;

@@ -1,5 +1,7 @@
 import { expect, it } from "vitest";
 
+// Add the correct type definition to 'params' to make the test pass
+
 export const addTwoNumbers = (params) => {
   return params.first + params.second;
 };
